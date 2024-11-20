@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Excel</title>
+</head>
+<body>
+    <h1>Upload a PDF to Convert to Excel</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <label for="pdf">Choose a PDF file:</label>
+        <input type="file" id="pdf" name="pdf" accept=".pdf" required />
+        <button type="submit">Convert</button>
+    </form>
+</body>
+</html>
